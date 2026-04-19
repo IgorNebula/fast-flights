@@ -1,0 +1,1 @@
+echo "# Служебный файл: сохраняет структуру папки в Git. Не удалять." > Presentation/Views/.gitkeep
