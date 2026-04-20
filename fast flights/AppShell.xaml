@@ -7,8 +7,8 @@
     Title="fast_flights">
 
     <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        Title="Flights"
+        ContentTemplate="{DataTemplate local:Presentation.Views.FlightsPage}"
+        Route="FlightsPage" />
 
 </Shell>
