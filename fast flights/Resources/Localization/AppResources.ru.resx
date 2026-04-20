@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <!-- Common -->
+  <data name="AppName" xml:space="preserve">
+    <value>Быстрые рейсы</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Язык</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Далее</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Редактировать</value>
+  </data>
+  <!-- Flight Search -->
+  <data name="From" xml:space="preserve">
+    <value>Откуда</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>Куда</value>
+  </data>
+  <data name="DepartureDate" xml:space="preserve">
+    <value>Дата вылета</value>
+  </data>
+  <data name="ReturnDate" xml:space="preserve">
+    <value>Дата возвращения</value>
+  </data>
+  <data name="Passengers" xml:space="preserve">
+    <value>Пассажиры</value>
+  </data>
+  <data name="Class" xml:space="preserve">
+    <value>Класс</value>
+  </data>
+  <data name="OneWay" xml:space="preserve">
+    <value>В одну сторону</value>
+  </data>
+  <data name="RoundTrip" xml:space="preserve">
+    <value>Туда и обратно</value>
+  </data>
+  <data name="FindFlights" xml:space="preserve">
+    <value>Найти рейсы</value>
+  </data>
+  <!-- Flight Results -->
+  <data name="FlightResults" xml:space="preserve">
+    <value>Результаты поиска</value>
+  </data>
+  <data name="Duration" xml:space="preserve">
+    <value>Время в пути</value>
+  </data>
+  <data name="Stops" xml:space="preserve">
+    <value>Пересадки</value>
+  </data>
+  <data name="Direct" xml:space="preserve">
+    <value>Прямой</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>Цена</value>
+  </data>
+  <data name="Book" xml:space="preserve">
+    <value>Забронировать</value>
+  </data>
+  <!-- Booking -->
+  <data name="Booking" xml:space="preserve">
+    <value>Бронирование</value>
+  </data>
+  <data name="PassengerDetails" xml:space="preserve">
+    <value>Данные пассажира</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Фамилия</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Телефон</value>
+  </data>
+  <data name="ConfirmBooking" xml:space="preserve">
+    <value>Подтвердить бронирование</value>
+  </data>
+  <!-- Messages -->
+  <data name="NoFlightsFound" xml:space="preserve">
+    <value>Рейсы по вашему запросу не найдены.</value>
+  </data>
+  <data name="BookingConfirmed" xml:space="preserve">
+    <value>Ваше бронирование подтверждено!</value>
+  </data>
+  <data name="BookingFailed" xml:space="preserve">
+    <value>Не удалось завершить бронирование. Попробуйте снова.</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Загрузка...</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="TryAgain" xml:space="preserve">
+    <value>Попробовать снова</value>
+  </data>
+</root>

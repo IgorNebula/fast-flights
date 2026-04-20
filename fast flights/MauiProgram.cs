@@ -1,4 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
+using fast_flights.Resources.Localization;
+using System.Globalization;
 
 namespace fast_flights
 {
@@ -18,6 +20,10 @@ namespace fast_flights
 #if DEBUG
     		builder.Logging.AddDebug();
 #endif
+
+            // Настройка локализации
+            var cultureInfo = new CultureInfo(CultureInfo.CurrentUICulture.TwoLetterISOLanguageName);
+            LocalizationResourceManager.Current.SetCulture(cultureInfo);
 
             return builder.Build();
         }

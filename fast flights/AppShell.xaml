@@ -6,9 +6,12 @@
     xmlns:local="clr-namespace:fast_flights"
     Title="fast_flights">
 
-    <ShellContent
+    <Shell.FlyoutHeader>
+		<Grid HeightRequest="64" BackgroundColor="#2A2F44"/>
+    </Shell.FlyoutHeader>
+    <ShellContent 
         Title="Flights"
         ContentTemplate="{DataTemplate local:Presentation.Views.FlightsPage}"
-        Route="FlightsPage" />
+        Route="FlightsPage"/>
 
 </Shell>
