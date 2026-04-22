@@ -74,13 +74,28 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Presentation\Views\Multi_sity.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Presentation\Views\One_way.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Presentation\Views\RoundTripPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Presentation\Views\Round_trip.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
 
 	<ItemGroup>
 	  <Folder Include="Presentation\viewModel\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="Presentation\Views\one_way.xaml.cs">
+	    <DependentUpon>One_way.xaml</DependentUpon>
+	  </Compile>
 	</ItemGroup>
 
 </Project>
