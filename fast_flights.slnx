@@ -1,5 +1,5 @@
 <Solution>
-  <Project Path="fast flights/fast flights.csproj">
+  <Project Path="fast flights/fast_flights.csproj">
     <Deploy Solution="Debug|*" />
   </Project>
   <Project Path="TestProject/TestProject.csproj" />

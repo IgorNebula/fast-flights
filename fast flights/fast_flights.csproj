@@ -79,4 +79,8 @@
 	  </MauiXaml>
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Folder Include="Presentation\viewModel\" />
+	</ItemGroup>
+
 </Project>
