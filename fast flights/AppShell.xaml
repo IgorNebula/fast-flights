@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Shell
-    x:Class="fast_flights.AppShell"
-    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:fast_flights"
-    Title="fast_flights">
+  x:Class="fast_flights.AppShell"
+  xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+  xmlns:local="clr-namespace:fast_flights"
+  xmlns:views="clr-namespace:fast_flights.Presentation.Views"
+  Title="fast_flights" BackgroundColor="#2A2F44">
 
-    <Shell.FlyoutHeader>
-		<Grid HeightRequest="64" BackgroundColor="#2A2F44"/>
-    </Shell.FlyoutHeader>
-    <ShellContent 
-        Title="Flights"
-        ContentTemplate="{DataTemplate local:Presentation.Views.FlightsPage}"
-        Route="FlightsPage"/>
+  <Shell.FlyoutHeader>
+    <Grid HeightRequest="64"
+          BackgroundColor="#2A2F44"/>
+  </Shell.FlyoutHeader>
+  <ShellContent
+    Title="One way"
+    x:Name="One_way"
+    ContentTemplate="{DataTemplate views:one_way}"/>
+  <ShellContent
+    Title="Round trip"
+    x:Name="Round_trip"
+    ContentTemplate="{DataTemplate views:Round_trip}"/>
+  <ShellContent
+    Title="Multi City"
+    x:Name="Multi_City"
+    ContentTemplate="{DataTemplate views:Multi_sity}"/>
 
 </Shell>
