@@ -58,6 +58,7 @@
 		<MauiImage Update="fa6_solid_children.png" BaseSize="24,24" />
 		<MauiImage Update="person_solid.png" BaseSize="24,24" />
 		<MauiImage Update="ph_seat.png" BaseSize="24,24" />
+		<MauiImage Update="exchange_btn.png" BaseSize="24,24"/>
 		
 		<!-- Custom Fonts -->
 		<MauiFont Include="Resources\Fonts\*" />

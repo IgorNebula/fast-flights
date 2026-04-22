@@ -2,11 +2,109 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="fast_flights.Presentation.Views.one_way"
-             Title="one_way" BackgroundColor="#2A2F44">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             Title="one_way"
+             BackgroundColor="#2A2F44" >
+    <ScrollView Padding="15">
+        <VerticalStackLayout Spacing="15">
+
+            <VerticalStackLayout Spacing="10">
+                <Label Text="From"
+                       Margin="16,0"/>
+                <Border Background="White"
+                        StrokeShape="10"
+                        Padding="12,10">
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="departure.png"/>
+                        <Picker HorizontalOptions="FillAndExpand"></Picker>
+                    </StackLayout>
+                </Border>
+            </VerticalStackLayout>
+
+            <ImageButton
+                Source="exchange_btn.png"
+                Margin="0,16,0,0"
+                BackgroundColor="Transparent"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"/>
+
+            <VerticalStackLayout Spacing="10">
+                <Label Text="text"
+                       Margin="16,0"/>
+                <Border Background="White"
+                        StrokeShape="10"
+                        Padding="12,10">
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="arrival.png"/>
+                        <Picker HorizontalOptions="FillAndExpand"></Picker>
+                    </StackLayout>
+                </Border>
+            </VerticalStackLayout>
+
+            <VerticalStackLayout Spacing="10">
+                <Label Text="text"
+                       Margin="16,0"/>
+                <Border Background="White"
+                        StrokeShape="10"
+                        Padding="12,10">
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="calendar_with_dates.png"/>
+                        <DatePicker HorizontalOptions="FillAndExpand"></DatePicker>
+                    </StackLayout>
+                </Border>
+            </VerticalStackLayout>
+
+            <VerticalStackLayout Spacing="10">
+                <Label Text="text"
+                       Margin="16,0"/>
+                <Border Background="White"
+                        StrokeShape="10"
+                        Padding="12,10">
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="calendar_with_dates.png"/>
+                        <DatePicker HorizontalOptions="FillAndExpand"></DatePicker>
+                    </StackLayout>
+                </Border>
+            </VerticalStackLayout>
+
+            <VerticalStackLayout Spacing="10">
+                <Label Text="text"
+                       Margin="16,0"/>
+                <Border Background="White"
+                        StrokeShape="10"
+                        Padding="12,10">
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="person_solid.png"/>
+                        <Picker HorizontalOptions="FillAndExpand"></Picker>
+                    </StackLayout>
+                </Border>
+            </VerticalStackLayout>
+
+            <VerticalStackLayout Spacing="10">
+                <Label Text="text"
+                       Margin="16,0"/>
+                <Border Background="White"
+                        StrokeShape="10"
+                        Padding="12,10">
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="fa6_solid_children.png"/>
+                        <Picker HorizontalOptions="FillAndExpand"></Picker>
+                    </StackLayout>
+                </Border>
+            </VerticalStackLayout>
+
+            <VerticalStackLayout Spacing="10">
+                <Label Text="text"
+                       Margin="16,0"/>
+                <Border Background="White"
+                        StrokeShape="10"
+                        Padding="12,10">
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="ph_seat.png"/>
+                        <Picker HorizontalOptions="FillAndExpand"></Picker>
+                    </StackLayout>
+                </Border>
+            </VerticalStackLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>
